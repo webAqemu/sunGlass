@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>SunGlass</title>
+  </head>
+  <body>
+    @@include('_header.html')
+    <main class="main">
+
+      <div class="promo slider">
+        <div class="promo__slide">
+          <div class="promo__item">
+            <h1 class="promo__title">
+              <div class="bold">Скидка 25% на все</div>
+              круглые очки!
+            </h1>
+            <p class="promo__text">
+              до конца лета <img class="promo__smile" src="./img/smile.svg">
+            </p>
+            <a class="promo__btn" href="./catalog.html">В каталог</a>
+          </div>
+        </div>
+        <div class="promo__slide">
+          <div class="promo__item">
+            <h1 class="promo__title">
+              <div class="bold">Скидка 100% на все</div>
+              очки без оправы!
+            </h1>
+            <p class="promo__text">
+              до конца зимы <img class="promo__smile" src="./img/smile.svg">
+            </p>
+            <a class="promo__btn" href="./catalog.html">В каталог</a>
+          </div>
+        </div>
+        <div class="promo__slide">
+          <div class="promo__item">
+            <h1 class="promo__title">
+              <div class="bold">Скидка 45% на все</div>
+              квадратные очки!
+            </h1>
+            <p class="promo__text">
+              до конца месяца <img class="promo__smile" src="./img/smile.svg">
+            </p>
+            <a class="promo__btn" href="./catalog.html">В каталог</a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="categories">
+        <li class="categories__slide"><a href="#" class="categories__item active">Смотреть все</a></li>
+        <li class="categories__slide"><a href="#" class="categories__item">Квадратные</a></li>
+        <li class="categories__slide"><a href="#" class="categories__item">Прямоугольные</a></li>
+        <li class="categories__slide"><a href="#" class="categories__item">Для зрения</a></li>
+      </ul>
+
+      <section class="popular">
+          <h2 class="popular__title title">Популярные товары</h2>
+          <ul class="popular__inner slider">
+            <li class="popular__slide">
+              <div class="card">
+                <a href="./card.html" class="card__link">
+                  <img src="./img/popular-card-img-1.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+                </a>
+                <div class="card__info">
+                  <div class="card__category">Police</div>
+                  <a class="card__title" href="./card.html">
+                    Солнцезащитные очки круглые № 255
+                  </a>
+                  <div class="card__price">
+                    2 899 ₴
+                    <span class="card__price--old">
+                      3 599 ₴
+                    </span>
+                  </div>
+                  <button class="card__add"></button>
+                </div>
+              </div>
+            </li>
+            <li class="popular__slide">
+              <div class="card">
+                <a href="./card.html" class="card__link">
+                  <img src="./img/popular-card-img-2.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+                </a>
+                <div class="card__info">
+                  <div class="card__category">Guess</div>
+                  <a class="card__title" href="./card.html">
+                    Солнцезащитные очки прямоугольные № 33
+                  </a>
+                  <div class="card__price">
+                    1 455 ₴
+                    <span class="card__price--old">
+                      1 880 ₴
+                    </span>
+                  </div>
+                  <button class="card__add"></button>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </section>
+
+      <section class="sales">
+        <h2 class="sales__title title">Скидки</h2>
+        <ul class="sales__inner slider">
+          <li class="sales__slide">
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-3.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Ray-Ban</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки круглые № 122
+                </a>
+                <div class="card__price">
+                  625 ₴
+                  <span class="card__price--old">
+                    925 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-4.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Casta</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки прямоугольные № 25
+                </a>
+                <div class="card__price">
+                  1 150 ₴
+                  <span class="card__price--old">
+                    1 355 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+          </li>
+          <li class="sales__slide">
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-5.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Guess</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки прямоугольные № 33
+                </a>
+                <div class="card__price">
+                  1 455 ₴
+                  <span class="card__price--old">
+                    1 880 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-6.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Guess</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки прямоугольные № 33
+                </a>
+                <div class="card__price">
+                  1 455 ₴
+                  <span class="card__price--old">
+                    1 880 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+          </li>
+          <li class="sales__slide">
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-1.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Guess</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки прямоугольные № 33
+                </a>
+                <div class="card__price">
+                  1 455 ₴
+                  <span class="card__price--old">
+                    1 880 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-2.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Guess</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки прямоугольные № 33
+                </a>
+                <div class="card__price">
+                  1 455 ₴
+                  <span class="card__price--old">
+                    1 880 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="viewed">
+        <h2 class="viewed__title title">Просмотренные товары</h2>
+        <ul class="viewed__inner slider">
+          <li class="viewed__slide">
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-7.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Ray-Ban</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки круглые № 122
+                </a>
+                <div class="card__price">
+                  625 ₴
+                  <span class="card__price--old">
+                    925 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+          </li>
+          <li class="viewed__slide">
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-8.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Ray-Ban</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки круглые № 122
+                </a>
+                <div class="card__price">
+                  625 ₴
+                  <span class="card__price--old">
+                    925 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+          </li>
+          <li class="viewed__slide">
+            <div class="card">
+              <a href="./card.html" class="card__link">
+                <img src="./img/popular-card-img-9.jpg" alt="Изображение солнцезащитныч очков" class="card__img">
+              </a>
+              <div class="card__info">
+                <div class="card__category">Ray-Ban</div>
+                <a class="card__title" href="./card.html">
+                  Солнцезащитные очки круглые № 122
+                </a>
+                <div class="card__price">
+                  625 ₴
+                  <span class="card__price--old">
+                    925 ₴
+                  </span>
+                </div>
+                <button class="card__add"></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="advantages">
+        <div class="container">
+          <h2 class="advantages__title title">Преимущества</h2>
+          <ul class="advantages__inner">
+            <li class="advantages__item">
+              <div class="advantages__num">01</div>
+              <h3 class="advantages__subtitle">Бесплатная доставка</h3>
+              <p class="advantages__text">Бесплатная доставка при заказе от 2 000 ₴</p>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__num">02</div>
+              <h3 class="advantages__subtitle">Гарантия качества</h3>
+              <p class="advantages__text">У нас есть все сертефикаты качества на продукцию</p>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__num">03</div>
+              <h3 class="advantages__subtitle">Идеальный подарок</h3>
+              <p class="advantages__text">У нас есть сертефикаты на 500₴ 1000₴ и 5000₴</p>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__num">04</div>
+              <h3 class="advantages__subtitle">Большой выбор</h3>
+              <p class="advantages__text">У нас предоставлено больше 5000 товаров</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__title title">Отзывы</h2>
+        <ul class="reviews__inner slider">
+          <li class="reviews__slide">
+            <div class="review">
+              <img src="./img/review-card-img-1.jpg" alt="изображение пользователя" class="review__img">
+              <div class="review__info">
+                <h4 class="review__name">Наташа Мацецка</h4>
+                <p class="review__text">Не просто молодцы, а молодцы с большой буквы. Классные специалисты. Классный сервис. Большой выбор.</p>
+              </div>
+            </div>
+          </li>
+          <li class="reviews__slide">
+            <div class="review">
+              <img src="./img/review-card-img-2.jpg" alt="изображение пользователя" class="review__img">
+              <div class="review__info">
+                <h4 class="review__name">Марина Елемен</h4>
+                <p class="review__text">Приходим, покупаем сдесь очки уже года, всей семей , качество очков супер и продавцы приветливы и хорошо знают свой товар！</p>
+              </div>
+            </div>
+          </li>
+          <li class="reviews__slide">
+            <div class="review">
+              <img src="./img/review-card-img-3.jpg" alt="изображение пользователя" class="review__img">
+              <div class="review__info">
+                <h4 class="review__name">Галина Телингер</h4>
+                <p class="review__text">Хорошие и качественные очки. Лично я довольна на все 💯. Компетентное обслуживание. Спасибо)))</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title title">О нас</h2>
+          <div class="about__text">
+            <p>
+              Солнце всегда ассоциируется у нас с чем-то позитивным: с прекрасным отдыхом в теплых странах и с хорошим настроением.
+            </p>
+            <p>
+              Однако не следует забывать, что солнечные лучи несут в себе опасность для нашей кожи и глаз.
+            </p>
+            <p>
+              Яркие лучи заставляют нас жмуриться, способствуя появлению морщин, а ультрафиолет негативно воздействует на хрусталик и сетчатку глаз, вызывая необратимые повреждения органов зрения. 
+            </p>
+          </div>
+          <div class="about__wrapper">
+            <div class="about__play active" style="background-image: url(./img/about-img.jpg);" ></div>
+            <video class="about__video">
+              <source src="./img/video.mp4">
+            </video>
+          </div>
+          <div class="about__caption">Видео о нас</div>
+        </div>
+      </section>
+
+      <ul class="social">
+        <li class="social__item"><a href="#" class="social__link social__link--whatsapp" style="background-image: url(./img/whatsApp.svg);" >WhatsApp</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--telegram" style="background-image: url(./img/telegram.svg);" >Telegram</a></li>
+      </ul>
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

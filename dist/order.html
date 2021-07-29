@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>SunGlass</title>
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+
+      <a href="./index.html" class="logo">
+        <img src="./img/logo.svg">
+      </a>
+      <a href="./cart.html" class="header__cart"></a>
+    </div>
+  </div>
+</header>
+    <main class="main">
+      <section class="order">
+        <div class="container">
+          <a href="./cart.html" class="back">
+            <h2 class="title">Оформление заказа</h2>
+          </a>
+
+          <form action="" class="order__form">
+            <label for="name" class="order__label">Имя</label>
+            <input class="order__input" type="text" name="name" placeholder="Ваше имя" required>
+            <label for="phone" class="order__label">Телефон</label>
+            <input class="order__input order__input--phone" type="text" name="phone" placeholder="+7 ___ ___ __ __ " required>
+            <label for="email" class="order__label">Почта</label>
+            <input class="order__input" type="email" name="email" placeholder="Ваша почта (необязательно)">
+            <label for="address" class="order__label">Адрес доставки</label>
+            <input class="order__input" type="text" name="address" placeholder="Улица, дом, квартира" required>
+            <div class="order__label">Способ оплаты</div>
+            <div class="order__wrapper">
+              <div class="order__item">
+                <input type="radio" name="payment" class="order__radio" checked>
+                <label for="cash" class="order__label order__label--radio">
+                  <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.8699 3.17627H5.1302C4.89879 4.13454 4.15809 4.89049 3.21912 5.12667V7.87322C4.15805 8.10943 4.89875 8.86535 5.1302 9.82362H15.8699C16.1013 8.86535 16.842 8.10939 17.781 7.87322V5.12667C16.842 4.89045 16.1013 4.13454 15.8699 3.17627ZM10.5 9.20584C9.03821 9.20584 7.84884 7.99202 7.84884 6.50003C7.84884 5.008 9.03817 3.79421 10.5 3.79421C11.9619 3.79421 13.1513 5.00804 13.1513 6.50003C13.1513 7.99202 11.9619 9.20584 10.5 9.20584Z" fill="#6B757D"/>
+                    <path d="M20.375 0H0.624996C0.27985 0 0 0.285613 0 0.637869V12.3621C0 12.7144 0.27985 13 0.624996 13H20.375C20.7201 13 21 12.7144 21 12.3621V0.637869C21 0.285613 20.7202 0 20.375 0ZM18.406 9.07186C17.6551 9.07186 17.0443 9.69529 17.0443 10.4615C17.0443 10.8138 16.7645 11.0994 16.4193 11.0994H4.58071C4.23556 11.0994 3.95571 10.8138 3.95571 10.4615C3.95571 9.69525 3.34487 9.07186 2.59407 9.07186C2.24893 9.07186 1.96908 8.78625 1.96908 8.43399V4.56597C1.96908 4.21371 2.24893 3.9281 2.59407 3.9281C3.34491 3.9281 3.95571 3.30467 3.95571 2.53841C3.95571 2.18616 4.23556 1.90055 4.58071 1.90055H16.4193C16.7644 1.90055 17.0443 2.18616 17.0443 2.53841C17.0443 3.30471 17.6551 3.9281 18.4059 3.9281C18.7511 3.9281 19.0309 4.21371 19.0309 4.56597V8.43399H19.031C19.0309 8.78625 18.7511 9.07186 18.406 9.07186Z" fill="#6B757D"/>
+                    <path d="M10.5 5.06989C9.72736 5.06989 9.09875 5.7114 9.09875 6.49996C9.09875 7.28853 9.72732 7.93004 10.5 7.93004C11.2726 7.93004 11.9012 7.28853 11.9012 6.49996C11.9012 5.7114 11.2726 5.06989 10.5 5.06989Z" fill="#6B757D"/>
+                  </svg>
+                  Наличкой
+                </label>
+              </div>
+              <div class="order__item">
+                <input type="radio" name="payment" class="order__radio">
+                <label for="card" class="order__label order__label--radio">
+                  <svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 12.0639C0 12.5936 0.417902 13.0231 0.933332 13.0231H20.0666C20.5821 13.0231 21 12.5936 21 12.0639V4.54468H0V12.0639ZM11.025 10.5334H18.8416V11.626H11.025V10.5334ZM3.26666 7.89538L5.08155 9.7607L3.26666 11.626L1.45181 9.76066L3.26666 7.89538Z" fill="#6B757D"/>
+                    <path d="M20.0666 0.0230713H0.933332C0.417902 0.0230713 0 0.452587 0 0.982339V2.02648H21V0.982339C21 0.452587 20.5821 0.0230713 20.0666 0.0230713Z" fill="#6B757D"/>
+                  </svg>
+                  Картой
+                </label>
+              </div>
+
+            </div>
+            <button class="order__btn" type="submit">Оформить заказ</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
